@@ -39,7 +39,13 @@ JuniorEngineer.prototype.work = function () {
   this._intelligence++
 }
 
-JuniorEngin
+JuniorEngineer.prototype.getIntelligence = function () {
+  return this._intelligence
+}
+
+JuniorEngineer.prototype.isBornGenius = function () {
+  return this._isBornGenius
+}
 
 /**
  * ## 문제 A - 추가문제
